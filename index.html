@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="https://e7.pngegg.com/pngimages/110/660/png-clipart-cat-whiskers-computer-icons-cat-mammal-animals.png">
+    <title>Котики!</title>
+    <style>
+      body {
+        background-color: #423c42;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      button {
+        background-color: #32cd32;
+        color: #ffffff;
+        border: none;
+        padding: 20px 40px;
+        font-size: 24px;
+        cursor: pointer;
+        margin-top: 50px;
+      }
+      #cat-gif {
+        width: 400px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img id="cat-gif" src="https://cataas.com/cat/gif" alt="Котик">
+      <button onclick="showRandomCatGif()">Показать котика!</button>
+    </div>
+
+    <script>
+      function showRandomCatGif() {
+        window.open("https://cataas.com/cat/gif");
+      }
+    </script>
+  </body>
+</html>
